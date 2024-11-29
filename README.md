@@ -1,16 +1,16 @@
-Introdução
+### Introdução
 Nesse trabalho, vamos dar vida ao layout desenvolvido no trabalho anterior, apresentando informações reais sobre series de TV obtidas dinamicamente a partir da integração com a API The Movie DB (v3) e outras informações obtidas OBRIGATORIAMENTE a partir de um servidor JSON ServerLinks to an external site. que oferece uma API RESTful e servirá como back end da aplicação. 
 
 Você pode evoluir o código para o layout feito no Trabalho Prático 1 ou começar um projeto do zero. Essa decisão fica a cargo de cada um, porém você deve seguir o wireframe que foi simplificado a partir do Trabalho Prático 1 e apresentar as funcionalidades que são apresentadas neste enunciado.
 
 ⚠️ IMPORTANTE: O trabalho deve ter foco obrigatoriamente na construção de um portal de séries com informações obtidas do The Movie DB e do JSONServer.  NÃO SERÃO ACEITOS TRABALHOS COM OUTRA TEMÁTICA E COM OUTRAS API. 
 
-JSONServer
+## JSONServer
 O JSONServer oferece uma API baseada no padrão RESTful para acesso e manipulação de dados dispostos em um arquivo JSON no servidor.
 
 Um exemplo funcional do JSONServerLinks to an external site. está acessível no ambiente do Replit e recomendamos fortemente que você utilize como base para o seu trabalho. Para isso, basta clonar (procedimento de FORK no Replit) e alterar o arquivo db.json, colocando estruturas de dados para sua aplicação.  
 
-API do The Movie DB
+## API do The Movie DB
 A API do The Movie DB fornece informações sobre filmes e séries de TV. Você precisará criar uma conta no site do The Movie DB e disponibilizamos um tutorial que te orienta como obter uma chave (API Key) utilizada em todas as requisições.
 
 Dentre as funcionalidades providas pela API do The Movie DB, destacamos os seguintes recursos que serão utilizados nesse projeto:  
@@ -25,13 +25,13 @@ Para exibir as imagens corretamente, você precisará ler as orientações bási
 
  
 
-Detalhamento do escopo
+### Detalhamento do escopo
 O trabalho deve contemplar as seguintes telas e suas funcionalidades descritas em seguida.
 
 Funcionalidades
 O trabalho será avaliado com base nas funcionalidades que são descritas para cada uma das telas a seguir:
 
-Tela 1 - Home-Page (index.html)
+# Tela 1 - Home-Page (index.html)
 A tela deve apresentar um cabeçalho com logo identificando o site e um menu do site 
 A tela deve ter uma Seção 1 - Carrosel de séres populares
 Deve apresentar as séries mais populares com foto, nome e descritivo em uma estrutura de carrosel (slider).
@@ -55,7 +55,7 @@ Ao clicar em uma série, deve direcionar o usuário para a Tela de Detalhes da S
 ORIENTAÇÃO: use componente do bootstrap (detalhes no link)
  
 
-Tela 2 - Explorador (explorer.html)
+# Tela 2 - Explorador (explorer.html)
 A tela deve apresentar um cabeçalho com logo identificando o site e um menu do site  (mesmo da tela 1 - Home-Page)
 A tela deve ter uma Caixa de pesquisa 
 Deve permitir que o usuário informe um texto para pesquisar séries
@@ -70,7 +70,7 @@ Ao clicar em uma série deve direcionar o usuário para a Tela de Detalhes da S�
 ORIENTAÇÃO: use componente do bootstrap (detalhes no link)
  
 
-Tela 3 - Detalhe da série (detalhes.html)
+# Tela 3 - Detalhe da série (detalhes.html)
 A tela deve apresentar um cabeçalho com logo identificando o site e um menu do site  (mesmo da tela 1 - Home-Page)
 A tela deve receber a identificação da série a ser exibida por meio de um parâmetro de query string. Ex.: http://servidor/detalhes.html?id=43
 A tela deve ter uma Seção 1 - Visão Geral
@@ -83,12 +83,12 @@ Os dados das séries devem ser obrigatoriamente obtidos a partir da API The Movi
 ORIENTAÇÃO: use componente do bootstrap (detalhes no link)
  
 
-Estruturas de Dados - JSONServer
+## Estruturas de Dados - JSONServer
 Para desenvolvimento desse trabalho, você deve criar estruturas de dados para armazenar os dados do aluno autor e as séries favoritas (Minhas séries). Utilize o projeto de exemplo do JSONServer para se inspirar, faça uma cópia para o seu trabalho. Você deve editar o arquivo db.json e montar as suas estruturas de dados. 
 
 Para a montagem do seu trabalho, deve haver, pelo menos, duas estruturas distintas: (1) perfil do usuário e (2) séries favoritas. As informações básicas e OBRIGATÓRIAS de cada uma das estruturas mencionadas são apresentadas a seguir
 
-ESTRUTURA DE PERFIL DO USUÁRIO
+# ESTRUTURA DE PERFIL DO USUÁRIO
 
 Identificador do perfil (número sequencial)
 Nome do Usuário
@@ -102,7 +102,7 @@ OBS: Essa estrutura poderá ter um único registro com informações do aluno au
 
  
 
-ESTRUTURA SÉRIES PREFERIDAS
+# ESTRUTURA SÉRIES PREFERIDAS
 
 Identificador do conteúdo (número sequencial)
 Identificador da serie preferida (código do The Movie DB)
