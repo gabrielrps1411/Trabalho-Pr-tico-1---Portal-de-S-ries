@@ -1,4 +1,4 @@
-### Introdução
+# Introdução
 Nesse trabalho, vamos dar vida ao layout desenvolvido no trabalho anterior, apresentando informações reais sobre series de TV obtidas dinamicamente a partir da integração com a API The Movie DB (v3) e outras informações obtidas OBRIGATORIAMENTE a partir de um servidor JSON ServerLinks to an external site. que oferece uma API RESTful e servirá como back end da aplicação. 
 
 Você pode evoluir o código para o layout feito no Trabalho Prático 1 ou começar um projeto do zero. Essa decisão fica a cargo de cada um, porém você deve seguir o wireframe que foi simplificado a partir do Trabalho Prático 1 e apresentar as funcionalidades que são apresentadas neste enunciado.
@@ -25,13 +25,13 @@ Para exibir as imagens corretamente, você precisará ler as orientações bási
 
  
 
-### Detalhamento do escopo
+# Detalhamento do escopo
 O trabalho deve contemplar as seguintes telas e suas funcionalidades descritas em seguida.
 
 Funcionalidades
 O trabalho será avaliado com base nas funcionalidades que são descritas para cada uma das telas a seguir:
 
-# Tela 1 - Home-Page (index.html)
+### Tela 1 - Home-Page (index.html)
 A tela deve apresentar um cabeçalho com logo identificando o site e um menu do site 
 A tela deve ter uma Seção 1 - Carrosel de séres populares
 Deve apresentar as séries mais populares com foto, nome e descritivo em uma estrutura de carrosel (slider).
@@ -55,7 +55,7 @@ Ao clicar em uma série, deve direcionar o usuário para a Tela de Detalhes da S
 ORIENTAÇÃO: use componente do bootstrap (detalhes no link)
  
 
-# Tela 2 - Explorador (explorer.html)
+### Tela 2 - Explorador (explorer.html)
 A tela deve apresentar um cabeçalho com logo identificando o site e um menu do site  (mesmo da tela 1 - Home-Page)
 A tela deve ter uma Caixa de pesquisa 
 Deve permitir que o usuário informe um texto para pesquisar séries
@@ -70,7 +70,7 @@ Ao clicar em uma série deve direcionar o usuário para a Tela de Detalhes da S�
 ORIENTAÇÃO: use componente do bootstrap (detalhes no link)
  
 
-# Tela 3 - Detalhe da série (detalhes.html)
+### Tela 3 - Detalhe da série (detalhes.html)
 A tela deve apresentar um cabeçalho com logo identificando o site e um menu do site  (mesmo da tela 1 - Home-Page)
 A tela deve receber a identificação da série a ser exibida por meio de um parâmetro de query string. Ex.: http://servidor/detalhes.html?id=43
 A tela deve ter uma Seção 1 - Visão Geral
@@ -88,7 +88,7 @@ Para desenvolvimento desse trabalho, você deve criar estruturas de dados para a
 
 Para a montagem do seu trabalho, deve haver, pelo menos, duas estruturas distintas: (1) perfil do usuário e (2) séries favoritas. As informações básicas e OBRIGATÓRIAS de cada uma das estruturas mencionadas são apresentadas a seguir
 
-# ESTRUTURA DE PERFIL DO USUÁRIO
+### ESTRUTURA DE PERFIL DO USUÁRIO
 
 Identificador do perfil (número sequencial)
 Nome do Usuário
@@ -102,23 +102,24 @@ OBS: Essa estrutura poderá ter um único registro com informações do aluno au
 
  
 
-# ESTRUTURA SÉRIES PREFERIDAS
+### ESTRUTURA SÉRIES PREFERIDAS
 
 Identificador do conteúdo (número sequencial)
 Identificador da serie preferida (código do The Movie DB)
 Identificador do usuário associado ao item preferido 
  
 
-Fluxo das Telas | Wireframe
+## Fluxo das Telas | Wireframe
 O fluxo de telas que deve ser implementado na aplicação entregue e os wireframes com os detalhes do escopo são apresentados na imagem a seguir.
+<img width="3760" alt="Wireframe - Portal de Séries - 2" src="https://github.com/user-attachments/assets/b7648b50-fc8d-4744-8aba-e8ff6d847dbc">
 
 IMPORTANTE: Observe que o wireframe fornecido no trabalho prático 1 foi simplificado. Não há mais uma seção de filtro na tela 2 do explorador e nem informações sobre temporadas e episódios na tela de detalhes da série. Essa parte está fora do trabalho prático 2.  
 
-Wireframe - Portal de Séries - 2.png
+
 
  
 
-Entrega
+# Entrega
 Você deve, OBRIGATORIAMENTE, enviar um arquivo compactado no formato ZIP com os arquivos necessários para a execução do site. Você poderá também, em caráter ADICIONAL e OPCIONAL, enviar um link para o site publicado no Replit. A entrega do arquivo ZIP é obrigatória e deve conter a seguinte estrutura, conforme projeto JSONServer, disponibilizado no Replit.
 
 /db
@@ -143,21 +144,21 @@ A orientação necessária para executar e testar o JSONServer e a parte de fron
 
  
 
-Avaliação por pares
+# Avaliação por pares
 O trabalho será avaliado no esquema de avaliação por pares. Nesse processo, você deve avaliar 3 projetos de outros alunos e isso é obrigatório e impacta na sua pontuação desse trabalho.  
 
-IMPORTANTE: Os trabalhos devem ter identidade visual própria e código fonte original. Cada aluno deve se identificar na Home-Page e fazer o seu trabalho de forma independente. Será realizada uma verificação de originalidade do código fonte e os trabalhos que tiverem partes significativas de código copiado dos demais colegas serão penalizados na nota. 
+## IMPORTANTE: Os trabalhos devem ter identidade visual própria e código fonte original. Cada aluno deve se identificar na Home-Page e fazer o seu trabalho de forma independente. Será realizada uma verificação de originalidade do código fonte e os trabalhos que tiverem partes significativas de código copiado dos demais colegas serão penalizados na nota. 
 
 Para avaliar os trabalhos e atribuir pontos, siga os critérios apresentados abaixo. Seja honesto na avaliação. A nota final será a média das avaliações dos 3 outros colegas, sendo chancelada pelos professores envolvidos. 
 
-CRITÉRIO 1: Formato e responsividade (2 pontos)
+### CRITÉRIO 1: Formato e responsividade (2 pontos)
 
 2 pontos - Responsividade funcional: O site apresenta adaptação e adequação de conteúdos para a versão mobile e desktop. Componentes se adaptam ao tamanho, imagem segue o padrão do grid, conteúdo ajusta a resolução com uso correto de media queries.
 1 pontos - Responsividade parcial: Somente alguns componentes ou elementos HTML se adaptam ao formato móvel, mas o sistema de Grid do Bootstrap está funcional no Desktop.
 0 pontos - Sem responsividade - O site não apresenta recuros de responsividade.
  
 
-CRITÉRIO 2: Carrousel de conteúdos sugerido (index.html)  (3 pontos)
+### CRITÉRIO 2: Carrousel de conteúdos sugerido (index.html)  (3 pontos)
 
 3 pontos - Seção de conteúdos dinâmica com dados da API The Movie DB
 Carrousel de conteúdos com carga dinâmica dos dados, integrada à API The Movie DB, e apresentando: imagem, título, descrição e com link funcional direcionando para página de detalhes da série;
@@ -167,7 +168,7 @@ Carrousel de conteúdos com carga dinâmica dos dados, integrada à API The Movi
 Carrousel de conteúdos não integrado à API The Movie DB ou apresentando mensagens de erro.
  
 
-CRITÉRIO 3: Cards de Novas Séries (index.html)  (3 pontos)
+### CRITÉRIO 3: Cards de Novas Séries (index.html)  (3 pontos)
 
 3 pontos - Seção de novas séries dinâmica com dados da API The Movie DB
 Relação dos novas séries com carga dinâmica dos dados, integrada com a API The Movie DB, apresentando imagem, nome e descrição e com link funcional direcionando para página de detalhes da série;
@@ -177,7 +178,7 @@ Relação dos novas séries com carga dinâmica dos dados, integrada com a API T
 Relação dos novas séries não integrado com API The Movie DB ou apresentando mensagens de erro.
  
 
-CRITÉRIO 4: Informações do aluno (index.html)  (3 pontos)
+### CRITÉRIO 4: Informações do aluno (index.html)  (3 pontos)
 
 3 pontos - Seção de Informações do aluno dinâmica com dados do perfil carregados via JSONServer
 Dados do aluno com carga dinâmica integrada ao JSONServer, e apresentando imagem do perfil, nome do usuário, descritivo do perfil (bio), links das redes sociais;
@@ -187,7 +188,7 @@ Dados do aluno com carga dinâmica integrada ao JSONServer, incompleto em termos
 Dados do usuário não integrado com JSONServer ou apresentando mensagens de erro.
  
 
-CRITÉRIO 5: Cards de séries favoritas (index.html)  (3 pontos)
+### CRITÉRIO 5: Cards de séries favoritas (index.html)  (3 pontos)
 
 3 pontos - Seção de séries favoritas dinâmica com dados do JSONServer
 Cards das séries com carga dinâmica dos dados, integrada com JSONServer, e apresentando: imagem, título, descrição e com link funcional direcionando para página de detalhes da série;
@@ -197,7 +198,7 @@ Cards das séries com carga dinâmica dos dados, integrada com JSONServer, incom
 Cards das séries não integrado com JSONServer ou apresentando mensagens de erro.
  
 
-CRITÉRIO 6: Tela de pesquisa (explorer.html)  (4 pontos)
+### CRITÉRIO 6: Tela de pesquisa (explorer.html)  (4 pontos)
 
 4 pontos - Página de Pesquisa totalmente funcional com link para página externa 
 Página de pesquisa que permite ao usuário informar um texto e obter os resultados a partir da API The Movie DB, apresentando os itens com a imagem representativa de cada item e os textos descritivos. Ao clicar em um item dos resultados o usuário é direcionado para uma página externa associada ao item;
@@ -206,7 +207,7 @@ Página de pesquisa funcionando integrada à API The Movie DB, porém com alguns
 0 ponto - Site sem funcionalidade de pesquisa: Nenhuma funcionalidade de pesquisa no site ou estrutura completamente estática.
  
 
-CRITÉRIO 7: Página de detalhes da série (detalhes.html)  (7 pontos)
+### CRITÉRIO 7: Página de detalhes da série (detalhes.html)  (7 pontos)
 
 7 pontos - Página de detalhes completa, totalmente funcional e integrada com API The Movie DB e JSONServer
 Página de detalhes com passagem de parâmetro corretamente implementada via query string, carga dinâmica dos dados a partir da API The Movie DB, botão de salvar série como favorita e apresentando todas as informações apresentadas em layout personalizado proposto para a série, com a relação de pessoas do elenco;
