@@ -1,0 +1,63 @@
+{
+  "author": {
+    "nome": "Gabriel Rodrigues Pereira da Silva",
+    "minibio": "Estudante de TI na faculdade PUC Minas - Unidade São Gabriel",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "turma": "Manhã",
+    "redesSociais": {
+      "Instagram": "https://www.instagram.com/grodriguesps/",
+      "githun": "https://github.com/gabrielrps1411"
+    }
+  },
+  "favoritos": [
+    {
+      "id": "1399",
+      "name": "Game of Thrones",
+      "poster_path": "/l2ezB41chGDjXcKo24lseuXYtKP.jpg",
+      "vote_average": 8.456,
+      "overview": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto."
+    },
+    {
+      "id": "60735",
+      "name": "Flash",
+      "poster_path": "/lFxIoMKqkgTuxpghTPHBjoVstMV.jpg",
+      "vote_average": 7.8,
+      "overview": "Um perito forense desperta de um coma com poderes especiais que serão postos à prova na luta contra forças que ameaçam a cidade."
+    },
+    {
+      "id": 1402,
+      "name": "The Walking Dead",
+      "poster_path": "/9lb02gTh4LLB17yAEXFd4C3R4JP.jpg",
+      "vote_average": 8.1,
+      "overview": "Nos Estados Unidos pós-apocalíptico, um pequeno grupo de sobreviventes segue viajando à procura de uma nova casa longe dos mortos-vivos. O desespero por segurança e suprimentos os coloca constantemente à beira da sanidade."
+    },
+    {
+      "id": 1396,
+      "name": "Breaking Bad: A Química do Mal",
+      "poster_path": "/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg",
+      "vote_average": 8.916,
+      "overview": "Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos."
+    },
+    {
+      "id": 1412,
+      "name": "Arqueiro",
+      "poster_path": "/oaLXsduGoDOOftWziIOvyZzrR4T.jpg",
+      "vote_average": 6.824,
+      "overview": "Após um violento naufrágio, o playboy milionário Oliver Queen é dado como morto. Cinco anos depois, é resgatado de uma ilha do Pacífico e enviado de volta para Starling City, onde passa a agir como vigilante secreto."
+    },
+    {
+      "id": 61664,
+      "name": "Sense8",
+      "poster_path": "/kmyvlQ9QKzgdZY31rXaUlgCnzrB.jpg",
+      "vote_average": 7.754,
+      "overview": "Esta série segue oito desconhecidos que passam a compartilhar sentimentos e habilidades enquanto tentam evitar seu extermínio."
+    },
+    {
+      "id": 60625,
+      "name": "Rick e Morty",
+      "poster_path": "/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg",
+      "vote_average": 8.693,
+      "overview": "Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se reconectou recentemente com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em aventuras perigosas e estranhas no espaço e em universos alternativos. Compostos à vida familiar já instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola."
+    }
+  ]
+}

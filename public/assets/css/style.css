@@ -1,0 +1,310 @@
+/* Reseta margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1F2937; 
+    color: #F5F5F5; 
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333; 
+    color: #FFD700; 
+}
+
+/* Logo */
+.logo h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2.5em; 
+    color: #FFD700; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+/* Estilo do botão "Explorador" */
+nav a.btn {
+    background-color: #FFD700; 
+    color: #333; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+}
+
+nav a.btn:hover {
+    background-color: #FFC300; 
+    color: #fff; 
+}
+
+/* Estilo dos títulos das seções */
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #FFD700; 
+    text-align: center;
+}
+
+/* Carrossel */
+.carousel-item img {
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+    height: 400px; /* Ajuste de altura */
+}
+
+
+/* Estilo das legendas do carrossel */
+.carousel-caption h5 {
+    font-size: 1.8em;
+    color: #FFD700; 
+}
+
+.carousel-caption p {
+    font-size: 1.2em;
+    color: #F5F5F5; 
+}
+
+/* Botões do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #FFD700; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: brightness(0.8);
+}
+
+/* Card para as Séries Populares */
+.popular-series-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.serie-card {
+    width: 200px;
+    border: 1px solid #333; 
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #333; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.serie-card:hover {
+    transform: scale(1.05);
+}
+
+.serie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.serie-card h3 {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #FFD700; 
+}
+
+.serie-card p {
+    font-size: 0.9em;
+    color: #F5F5F5; 
+}
+
+.series-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px 0;
+    }
+
+    .card-img-top {
+        height: 300px; 
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .serie-card {
+        width: 150px; /* Ajuste para telas menores */
+    }
+}
+
+.btn-favorito {
+    background-color: #FFD700;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-favorito:hover {
+    background-color: #FFC300;
+    color: white;
+}
+
+/* Estilização do campo de busca */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.search-bar input:focus {
+    border-color: #007bff;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Seção de Detalhes da Série */
+#serie-details {
+    margin: 20px;
+}
+
+.overview-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Poster da Série */
+.serie-poster img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Informações da Série */
+.serie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.serie-info h2 {
+    font-size: 2.2em;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.serie-info span {
+    color: #F5F5F5;
+    font-size: 1em;
+}
+
+/* Botão de Favoritos */
+.btn-favorito {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Seção de Elenco */
+.cast h2 {
+    margin-top: 40px;
+}
+
+.cast-card {
+    width: 260px; /* Aumenta a largura do card */
+    margin: 5px; /* Espaço entre os cards */
+    text-align: center;
+    background-color: #333; /* Fundo cinza para destaque */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cast-card img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px;
+}
+
+.cast-card p {
+    margin-top: 8px; /* Espaço entre a imagem e o texto */
+    font-size: 14px; /* Tamanho da fonte */
+    color: #ffd700; /* Amarelo para os nomes */
+}
+
+
+.cast-card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para o contêiner das informações do aluno */
+#student-info {
+    background-color: #2C3E50; /* Cor cinza claro */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.remove-favorite-btn {
+    background-color: transparent;
+    border: none;
+    color: #FFD700;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+}
+
+.remove-favorite-btn:hover {
+    color: #FF6347; /* Cor de destaque para o hover */
+}
